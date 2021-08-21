@@ -61,6 +61,9 @@ class MainBody extends React.Component {
                 in green. If you'd like to learn a little bit about me personally/professionally
                 click where it says 'Experience' or 'About Me' in green.
               </p>
+              <p class="Text">
+                (Scroll down for navigation bar on phone)
+              </p>
             </div>
           </div>
         </div>
