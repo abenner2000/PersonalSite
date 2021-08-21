@@ -5,9 +5,232 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(48, 47, 47);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.NavBar{
+  float:left;
+  text-align: center;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 1px 1px black;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 90vh;
+  width: 30%;
+}
+.List{
+  float: left;
+  width: 100%;
+  height: 90vh;
+  margin-top: 10vh;
+}
+.CenterColumn{
+  float: right;
+  margin: auto;
+  margin-top: 0px;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height: 100%;
+  width: 70%;
+}
+
+.Top{
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align:center;
+}
+
+.PictureCircle{
+  height: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.TextBox{
+  height: 50%;
+  text-align: center;
+}
+
+.Picture{
+  border-radius: 50%;
+  min-width:100px;
+  min-height:100px;
+  max-width:200px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  margin-top: 2vh;
+}
+
+.Name{
+  text-align: center;
+  color:rgb(22, 175, 137);
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  text-shadow: 1px 1px black;
+}
+
+.Text{
+  color:rgb(23, 122, 97);
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+}
+
+.HyperBox{
+  float: left;
+  width: 100%;
+}
+
+.HyperLinks{
+  color:rgb(22, 175, 137);
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  text-align:center;
+  text-shadow: 1px 1px black;
+}
+
+.HyperLinks:hover{
+  text-decoration: underline;
+}
+
+/* Tablet */
+@media (max-width: 1080px) {
+  .NavBar{
+    position: fixed;
+    margin-top: 85vh;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 1px black;
+    height: 15vh;
+    width: 100%;
+    border: 0.5vh;
+  }
+  .List{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0vh;
+  }
+  .CenterColumn{
+    float: right;
+    margin: auto;
+    margin-top: 0px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  .Top{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .Picture{
+    border-radius: 50%;
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-top: 2vh;
+  }
+  
+  .Name{
+    color:rgb(22, 175, 137);
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  
+  .Text{
+    color:rgb(23, 122, 97);
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  
+  .HyperBox{
+    float: left;
+    width: 33%;
+  }
+  
+  .HyperLinks{
+    color:rgb(22, 175, 137);
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align:center;
+  }
+}
+
+/* Phone 
+@media (orientation: portrait) */
+@media (max-width: 667px) {
+  .NavBar{
+    position: fixed;
+    margin-top: 85vh;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px 1px black;
+    height: 15vh;
+    width: 100%;
+    border: 0.5vh;
+  }
+  .List{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0vh;
+  }
+  .CenterColumn{
+    float: left;
+    margin: auto;
+    margin-top: 0px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  .Top{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .Picture{
+    border-radius: 50%;
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    margin-top: 2vh;
+  }
+  
+  .Name{
+    color:rgb(22, 175, 137);
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+  }
+  
+  .Text{
+    color:rgb(23, 122, 97);
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  
+  .HyperBox{
+    float: left;
+    width: 33%;
+  }
+  
+  .HyperLinks{
+    color:rgb(22, 175, 137);
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-align:center;
+  }
 }
