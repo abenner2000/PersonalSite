@@ -159,6 +159,7 @@ class Experience extends React.Component {
               </td >
             </tr>
           </table>
+          <br /> <br />
         </div>      
       </div>
     );
@@ -237,6 +238,7 @@ class Projects extends React.Component {
               </td >
             </tr>
           </table>
+          <br /> <br />
         </div>
       </div>
     );
