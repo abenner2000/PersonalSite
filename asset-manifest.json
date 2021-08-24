@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalSite/static/css/main.e2535ded.chunk.css",
+    "main.css": "/PersonalSite/static/css/main.bb1c0268.chunk.css",
     "main.js": "/PersonalSite/static/js/main.5c27b0fd.chunk.js",
     "main.js.map": "/PersonalSite/static/js/main.5c27b0fd.chunk.js.map",
     "runtime-main.js": "/PersonalSite/static/js/runtime-main.29a9fdf5.js",
@@ -10,7 +10,7 @@
     "static/js/3.8449af2d.chunk.js": "/PersonalSite/static/js/3.8449af2d.chunk.js",
     "static/js/3.8449af2d.chunk.js.map": "/PersonalSite/static/js/3.8449af2d.chunk.js.map",
     "index.html": "/PersonalSite/index.html",
-    "static/css/main.e2535ded.chunk.css.map": "/PersonalSite/static/css/main.e2535ded.chunk.css.map",
+    "static/css/main.bb1c0268.chunk.css.map": "/PersonalSite/static/css/main.bb1c0268.chunk.css.map",
     "static/js/2.b25e2c54.chunk.js.LICENSE.txt": "/PersonalSite/static/js/2.b25e2c54.chunk.js.LICENSE.txt",
     "static/media/Fam.66c075e2.jpg": "/PersonalSite/static/media/Fam.66c075e2.jpg",
     "static/media/Hangman.037041af.PNG": "/PersonalSite/static/media/Hangman.037041af.PNG",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.29a9fdf5.js",
     "static/js/2.b25e2c54.chunk.js",
-    "static/css/main.e2535ded.chunk.css",
+    "static/css/main.bb1c0268.chunk.css",
     "static/js/main.5c27b0fd.chunk.js"
   ]
 }
