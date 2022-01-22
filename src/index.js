@@ -6,7 +6,9 @@ import Hangman from './Hangman.PNG';
 import YT from './youtube.png';
 import SYEP from './syep.png';
 import ZAS from './zas.jfif';
-import EK from './ekanyone.jfif'
+import EK from './ekanyone.jfif';
+import FRDM from './FRDM.PNG';
+import POL from './Pololu.PNG';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -57,12 +59,12 @@ class MainBody extends React.Component {
                 Hi! My name is Andrew Benner, and I'd like to thank you for taking the time
                 to stop by my personal website. This website was created using ReactJS and is 
                 currently being hosted via GitHub Pages. If you'd like to check out projects 
-                that I've worked on (My Portfolio) click where it says 'Personal Projects'
-                in green. If you'd like to learn a little bit about me personally/professionally
-                click where it says 'Experience' or 'About Me' in green.
+                that I've worked on (My Portfolio) click where it says 'Personal Projects'.
+                If you'd like to learn a little bit about me personally/professionally
+                click where it says 'Experience' or 'About Me'.
               </p>
               <p class="Text">
-                (Scroll down for navigation bar on phone)
+                Contact me at: andrewbenner918@gmail.com
               </p>
             </div>
           </div>
@@ -177,6 +179,7 @@ class Projects extends React.Component {
             <img src={Git} class="GitPicture" />
           </a>
         </div>
+        <p class = "Name">Software Projects </p>
         <div class = "ProjectsBox">
           <table class = "ProjectsTable">
             <tr>
@@ -238,8 +241,58 @@ class Projects extends React.Component {
               </td >
             </tr>
           </table>
-          <br /> <br />
         </div>
+        <p class = "Name">Hardware (Embedded) Projects </p>
+        <div class = "ProjectsBox">
+          <table class = "ProjectsTable">
+            <tr>
+              <td class = "ProjectsTD">
+                <p class = "ProjectsName">
+                  FRDM KL25Z Board Project
+                </p>
+                <a href = "https://youtu.be/cULHY6uY5r8" target = "_blank">
+                  <img src={FRDM} class = "ProjPic" />
+                </a>
+              </td>
+              <td class = "ProjectsTD">
+                <p class = "Text">
+                  This was the final project for a course I took in my senior year at 
+                  SUNY Binghamton (EECE 458 - Embedded Systems Design). Using drivers 
+                  to interact with the hardware of the board, I made use of a built 
+                  in accelerometer to allow the user to create a color and display it 
+                  on the LED. Holding the board at varying angles on different planes 
+                  (picked up by the accelerometer) will display a color that the user 
+                  can choose by pressing the button. Once three colors have been picked, 
+                  a final button press will display the color that all three chosen 
+                  colors create once combined. Click on the picture to be taken to a 
+                  YouTube demo. The code can be found in my GitHub.
+                </p>
+              </td >
+            </tr>
+            <tr>
+            <td class = "ProjectsTD">
+                <p class = "ProjectsName">
+                  Pololu 3pi Robot Project
+                </p>
+                <a href = "https://youtu.be/VpMcMdAtS50" target = "_blank">
+                  <img src={POL} class = "ProjPic" />
+                </a>
+              </td>
+              <td class = "ProjectsTD">
+                <p class = "Text">
+                  This was the final project for a course I took in my 
+                  junior year at SUNY Binghamton (EECE 387 - Junior Design). 
+                  I created drivers to interact with the hardware of the 
+                  Pololu 3PI robot and then programmed it to completely 
+                  navigate a maze, detect all mines (paper pieces) and 
+                  return to the start. Click on the picture to be taken to 
+                  a YouTube demo. The code can be found in my GitHub.
+                </p>
+              </td >
+            </tr>
+          </table>
+        </div>
+        <br /><br />
       </div>
     );
   }
