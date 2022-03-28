@@ -9,6 +9,7 @@ import ZAS from './zas.jfif';
 import EK from './ekanyone.jfif';
 import FRDM from './FRDM.PNG';
 import POL from './Pololu.PNG';
+import UCA from './UCA.jpg'
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -95,6 +96,29 @@ class Experience extends React.Component {
         <p class = "HyperLinks" onClick={() => home()}>Home Page (click here)</p>
         <div class = "ExperienceBox">
           <table class = "ExperienceTable">
+          <tr>
+              <td class = "ExperienceTD">
+                <p class = "ExperienceName">
+                  Binghamton University
+                </p>
+                <p class = "Text">
+                  Undergraduate Course Assistant (01/2022 - Present)
+                </p>
+                <a href = "https://www.binghamton.edu/electrical-computer-engineering/index.html" target = "_blank">
+                  <img src={UCA} class = "ExperiencePic" />
+                </a>
+              </td>
+              <td class = "ExperienceTD">
+                <p class = "Text">
+                  Currently, I am an undergraduate course assistant for a class called
+                  Junior Design at Binghamton University. I help students with questions
+                  that they have in regards to lab assignments and projects where they 
+                  have to program the soft microprocessor MicroBlaze. I am also available 
+                  for electronic assistance via email and help the students in the conceptual
+                  development of their final projects.
+                </p>
+              </td >
+            </tr>
             <tr>
               <td class = "ExperienceTD">
                 <p class = "ExperienceName">
@@ -103,9 +127,7 @@ class Experience extends React.Component {
                 <p class = "Text">
                   Software Engineering Intern (05/2021 - 08/2021)
                 </p>
-                <a href = "https://www.ekanyone.com/" target = "_blank">
-                  <img src={EK} class = "ExperiencePic" />
-                </a>
+                <img src={EK} class = "ExperiencePic" />
               </td>
               <td class = "ExperienceTD">
                 <p class = "Text">
