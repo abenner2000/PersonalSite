@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PersonalSite/static/css/main.5bc49cbf.chunk.css",
-    "main.js": "/PersonalSite/static/js/main.684d0e48.chunk.js",
-    "main.js.map": "/PersonalSite/static/js/main.684d0e48.chunk.js.map",
+    "main.js": "/PersonalSite/static/js/main.429526ed.chunk.js",
+    "main.js.map": "/PersonalSite/static/js/main.429526ed.chunk.js.map",
     "runtime-main.js": "/PersonalSite/static/js/runtime-main.29a9fdf5.js",
     "runtime-main.js.map": "/PersonalSite/static/js/runtime-main.29a9fdf5.js.map",
     "static/js/2.b25e2c54.chunk.js": "/PersonalSite/static/js/2.b25e2c54.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/Hangman.037041af.PNG": "/PersonalSite/static/media/Hangman.037041af.PNG",
     "static/media/Logic.4b05a835.PNG": "/PersonalSite/static/media/Logic.4b05a835.PNG",
     "static/media/Pololu.8cb901c5.PNG": "/PersonalSite/static/media/Pololu.8cb901c5.PNG",
+    "static/media/UCA.6014d046.jpg": "/PersonalSite/static/media/UCA.6014d046.jpg",
     "static/media/ekanyone.de58eef0.jfif": "/PersonalSite/static/media/ekanyone.de58eef0.jfif",
     "static/media/headshot.a9399870.jpg": "/PersonalSite/static/media/headshot.a9399870.jpg",
     "static/media/syep.fd10aaa2.png": "/PersonalSite/static/media/syep.fd10aaa2.png",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.29a9fdf5.js",
     "static/js/2.b25e2c54.chunk.js",
     "static/css/main.5bc49cbf.chunk.css",
-    "static/js/main.684d0e48.chunk.js"
+    "static/js/main.429526ed.chunk.js"
   ]
 }
