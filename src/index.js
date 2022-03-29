@@ -67,6 +67,7 @@ class MainBody extends React.Component {
               <p class="Text">
                 Contact me at: andrewbenner918@gmail.com
               </p>
+              <br /><br /><br /><br /><br /><br />
             </div>
           </div>
         </div>
@@ -93,7 +94,6 @@ class Experience extends React.Component {
     return(
       <div>
         <p class = "Name"> My Experience </p>
-        <p class = "HyperLinks" onClick={() => home()}>Home Page (click here)</p>
         <div class = "ExperienceBox">
           <table class = "ExperienceTable">
           <tr>
@@ -183,8 +183,21 @@ class Experience extends React.Component {
               </td >
             </tr>
           </table>
-          <br /> <br />
-        </div>      
+          <br /><br /><br /><br /><br /><br /><br /><br />
+        </div>   
+        <div class = "secondNavBar">
+          <div class = "secondList">
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => home()}>Home</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => projects()}>Personal Projects</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => about()}>About Me</p>
+              </div>
+          </div>
+        </div>
       </div>
     );
   }
@@ -195,7 +208,6 @@ class Projects extends React.Component {
     return(
       <div>
         <p class = "Name"> Personal Projects </p>
-        <p class = "HyperLinks" onClick={() => home()}>Home Page (click here)</p>
         <div class="PictureCircle">
           <a href = "https://github.com/abenner2000" target = "_blank">
             <img src={Git} class="GitPicture" />
@@ -314,6 +326,20 @@ class Projects extends React.Component {
             </tr>
           </table>
         </div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <div class = "secondNavBar">
+          <div class = "secondList">
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => home()}>Home</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => experience()}>Experience</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => about()}>About Me</p>
+              </div>
+          </div>
+        </div>
         <br /><br />
       </div>
     );
@@ -329,7 +355,6 @@ class About extends React.Component {
         </div>
         <div class = "TextBox">
           <p class = "Name">About Me</p>
-          <p class = "HyperLinks" onClick={() => home()}>Home Page (click here)</p>
           <p class = "Text">
             I'm a very family-oriented person, and I love to travel.
             Alongside travelling, two of my biggest hobbies are playing
@@ -339,6 +364,20 @@ class About extends React.Component {
             weighlifting, running, or doing math; I love competitions. I 
             also enjoy playing video games occasionally.
           </p>
+          <br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+        <div class = "secondNavBar">
+          <div class = "secondList">
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => home()}>Home</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => experience()}>Experience</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => projects()}>Personal Projects</p>
+              </div>
+          </div>
         </div>
       </div>
     );
