@@ -10,6 +10,8 @@ import EK from './ekanyone.jfif';
 import FRDM from './FRDM.PNG';
 import POL from './Pololu.PNG';
 import UCA from './UCA.jpg'
+import MERN from './MERN.PNG';
+import RESUME from './Resume.PNG'
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -47,6 +49,13 @@ function about() {
   );
 }
 
+function resume() {
+  ReactDOM.render(
+    <Resume />,
+    document.getElementById('root')
+  );
+}
+
 class MainBody extends React.Component {
   render() {
     return(
@@ -59,7 +68,7 @@ class MainBody extends React.Component {
               <p class="Text">
                 Hi! My name is Andrew Benner, and I'd like to thank you for taking the time
                 to stop by my personal website. This website was created using ReactJS and is 
-                currently being hosted via GitHub Pages. If you'd like to check out projects 
+                currently being hosted via AWS(S3,CloudFront, and Route 53). If you'd like to check out projects 
                 that I've worked on (My Portfolio) click where it says 'Personal Projects'.
                 If you'd like to learn a little bit about me personally/professionally
                 click where it says 'Experience' or 'About Me'.
@@ -81,6 +90,9 @@ class MainBody extends React.Component {
               </div>
               <div class = "HyperBox">
                 <p class = "HyperLinks" onClick={() => about()}>About Me</p>
+              </div>
+              <div class = "HyperBox">
+                <p class = "HyperLinks" onClick={() => resume()}>Resume</p>
               </div>
           </div>
         </div>
@@ -216,6 +228,27 @@ class Projects extends React.Component {
         <p class = "Name">Software Projects </p>
         <div class = "ProjectsBox">
           <table class = "ProjectsTable">
+          <tr>
+              <td class = "ProjectsTD">
+                <p class = "ProjectsName">
+                  MERN FullStack E-Commerce Website
+                </p>
+                <a href = "https://ecommerce-site-3c042.web.app/" target = "_blank">
+                  <img src={MERN} class = "ProjPic" />
+                </a>
+              </td>
+              <td class = "ProjectsTD">
+                <p class = "Text">
+                  I developed this Full Stack website using a MERN stack. I used
+                  Firestore database (NoSQL) from Firebase instead of MongoDB. This
+                  website handles user authentication through Firebase, a secure method
+                  of payment processing through integration of the Stripe API, and provides
+                  a user order history breakdown through the connection with the Cloud
+                  Firestore database. Alongside this, the user cart can be manipulated 
+                  through editing global variables with the React Context API.
+                </p>
+              </td >
+            </tr>
             <tr>
               <td class = "ProjectsTD">
                 <p class = "ProjectsName">
@@ -364,6 +397,33 @@ class About extends React.Component {
             weighlifting, running, or doing math; I love competitions. I 
             also enjoy playing video games occasionally.
           </p>
+          <br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+        <div class = "secondNavBar">
+          <div class = "secondList">
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => home()}>Home</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => experience()}>Experience</p>
+              </div>
+              <div class = "secondHyperBox">
+                <p class = "HyperLinks" onClick={() => projects()}>Personal Projects</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+class Resume extends React.Component {
+  render() {
+    return(
+      <div>
+        <div class = "TextBox">
+          <p class = "Name">Resume</p>
+          <img src = {RESUME} class = "resume" />
           <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
         <div class = "secondNavBar">

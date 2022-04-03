@@ -13,6 +13,11 @@ code {
     monospace;
 }
 
+.resume{
+  width: 80%;
+  object-fit: contain;
+}
+
 .NavBar{
   float:left;
   text-align: center;
@@ -202,7 +207,7 @@ code {
   
   .HyperBox{
     float: left;
-    width: 33%;
+    width: 25%;
   }
 
   .secondHyperBox{
@@ -293,7 +298,7 @@ code {
   
   .HyperBox{
     float: left;
-    width: 33%;
+    width: 25%;
   }
 
   .secondHyperBox{
