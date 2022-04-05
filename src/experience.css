@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(48, 47, 47);
+  background-color: white;
 }
 
 code {
@@ -18,16 +18,12 @@ border-radius: 5px;
 width: 50%;
 border: 2px;
 border-style: solid;
-border-color: black;
+border-color: #E56B1F;
 }
 
 .ExperienceBox{
 margin: auto;
 margin-top: 1vh;
-border: 2px;
-border-style: solid;
-border-color: rgb(32,32,32);
-border-radius: 5px;
 width: 90%;
 height: 50vh;
 }
@@ -46,7 +42,7 @@ margin-top: 2vh;
 
 .ExperienceTable{
 border-radius: 5px;
-background-color: rgb(75, 73, 73);
+background-color: rgb(237,237,237);
 box-shadow: 2px 2px 10px black;
 height: 100%;
 width: 100%;
@@ -55,7 +51,7 @@ text-align: center;
 
 .ExperienceName{
 text-align: center;
-color:rgb(22, 175, 137);
+color:black;
 font-family: Helvetica, sans-serif;
 font-size: 24px;
 text-shadow: 1px 1px black;
@@ -102,7 +98,7 @@ box-shadow: 2px 2px 10px black;
   margin-top: 2vh;
 }
 .ExperienceName{
-  color:rgb(22, 175, 137);
+  color:black;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
 }
@@ -128,7 +124,7 @@ box-shadow: 2px 2px 10px black;
   margin-top: 2vh;
 }
 .ExperienceName{
-  color:rgb(22, 175, 137);
+  color:black;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
 }

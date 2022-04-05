@@ -224,6 +224,11 @@ class Projects extends React.Component {
           <a href = "https://github.com/abenner2000" target = "_blank">
             <img src={Git} class="GitPicture" />
           </a>
+          <a href = "https://github.com/abenner2000" target = "_blank">
+            <p class = "ProjectsName">
+              (Github Link)
+            </p>
+          </a>
         </div>
         <p class = "Name">Software Projects </p>
         <div class = "ProjectsBox">
