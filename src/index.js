@@ -114,7 +114,7 @@ class Experience extends React.Component {
                   Binghamton University
                 </p>
                 <p class = "Text">
-                  Undergraduate Course Assistant (01/2022 - Present)
+                  Undergraduate Course Assistant (01/2022 - 05/2022)
                 </p>
                 <a href = "https://www.binghamton.edu/electrical-computer-engineering/index.html" target = "_blank">
                   <img src={UCA} class = "ExperiencePic" />
@@ -122,11 +122,12 @@ class Experience extends React.Component {
               </td>
               <td class = "ExperienceTD">
                 <p class = "Text">
-                  Currently, I am an undergraduate course assistant for a class called
-                  Junior Design at Binghamton University. I help students with questions
-                  that they have in regards to lab assignments and projects where they 
-                  have to program the soft microprocessor MicroBlaze. I am also available 
-                  for electronic assistance via email and help the students in the conceptual
+                  Most recently, I was an undergraduate course assistant for a class called
+                  Junior Design at Binghamton University. This course used C programming to 
+                  program hardware like microcontrollers. I helped students with questions
+                  that they had in regards to lab assignments and projects where they 
+                  had to program the soft microprocessor MicroBlaze. I was also available 
+                  for electronic assistance via email and helped the students in the conceptual
                   development of their final projects.
                 </p>
               </td >
@@ -143,7 +144,7 @@ class Experience extends React.Component {
               </td>
               <td class = "ExperienceTD">
                 <p class = "Text">
-                  In my most recent internship at eKanyone, I got to work on a team of interns 
+                  During my Summer '21 internship at eKanyone, I got to work on a team of interns 
                   where I vastly improved my skills and knowledge on both front and backend programming.
                   I got to contribute to the design and development of a full stack CRUD ecommerce website
                   using ReactJS and Django.
